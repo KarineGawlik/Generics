@@ -5,12 +5,14 @@ public abstract class Carro {
 	//atributo comum para todos os carros
 	String marca;
 	String modelo;
+	String tipo;
 
 	//Construtor da marca e modelo do carro
-	public Carro(String marca, String modelo) {
+	public Carro(String marca, String modelo, String tipo) {
 		super();
 		this.marca = marca;
 		this.modelo = modelo;
+		this.tipo = tipo;
 	}
 	//método para exibir informaçõees do carro 
 	abstract void exibirInfo();
